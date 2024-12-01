@@ -6,3 +6,11 @@ class Solution:
             if complement in notebook:
                 return [notebook[complement], i]
             notebook[num] = i
+
+solution = Solution()
+
+nums = [2,3,4,5,6]
+target = 8
+
+output = solution.twoSum(nums, target)
+print(output)
