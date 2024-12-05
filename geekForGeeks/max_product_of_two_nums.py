@@ -4,7 +4,7 @@ class Solution:
         for num in arr:
             if num > largest:
                 second_largest = largest
-                largest = num
+                largest = num 
             elif num > second_largest:
                 second_largest = num
         return largest * second_largest
